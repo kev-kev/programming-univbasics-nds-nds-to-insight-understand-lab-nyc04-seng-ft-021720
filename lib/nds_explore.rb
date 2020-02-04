@@ -10,6 +10,7 @@ end
 
 def print_first_directors_movie_titles
   spielberg_movies_index = 0 
+  spielberg_movies_str = ""
   #while the movie index is less than the length of the list of movies made by spielberg..
   while spielberg_movies_index < directors_database[0][:movies].length do
     
