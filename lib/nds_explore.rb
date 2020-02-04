@@ -16,6 +16,7 @@ def print_first_directors_movie_titles
     spielberg_movies_str += (directors_database[0][:movies][spielberg_movies_index] + "\n")
     spielberg_movies_index += 1
   end
+  return spielberg_movies_str
 end
 
 #Zero is the director, one is a movie theyve made
