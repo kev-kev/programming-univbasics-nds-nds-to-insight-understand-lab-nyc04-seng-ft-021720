@@ -20,4 +20,4 @@ def print_first_directors_movie_titles
 end
 
 #Zero is the director, one is a movie theyve made
-pp directors_database[0][:movies][1][:title]
+#pp directors_database[0][:movies][1][:title]
