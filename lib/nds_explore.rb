@@ -21,3 +21,4 @@ end
 
 #Zero is the director, one is a movie theyve made
 #pp directors_database[0][:movies][1][:title]
+print_first_directors_movie_titles
